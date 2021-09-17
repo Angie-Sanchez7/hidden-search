@@ -5,7 +5,8 @@
 }
 
 body {
-  background-image: linear-gradient(90deg, #7d5fff, #7158e2);
+  background: lightpink;
+  /* background-image: linear-gradient(90deg, #7d5fff, #7158e2); */
   font-family: "Roboto", sans-serif;
   display: flex;
   align-items: center;
@@ -26,7 +27,7 @@ body {
   height: 50px;
   width: 50px;
   font-size: 18px;
-  transition: .3s ease ;
+  transition: 0.3s ease;
 }
 
 .search .btn {
@@ -38,23 +39,20 @@ body {
   height: 50px;
   width: 50px;
   font-size: 20px;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .active .btn {
   transform: translateX(200px);
-  transition:  .3s ease;
-  
+  transition: 0.3s ease;
 }
 
 .active .input {
   width: 200px;
-  transition:  .3s ease;
+  transition: 0.3s ease;
 }
 
- .search .input:focus,        /* Cuando uno da click no aparazca el borde*/
+.search .input:focus,        /* Cuando uno da click no aparazca el borde*/
 .search .btn:focus {
-  outline: 0;           
-} 
-
-
+  outline: 0;
+}
